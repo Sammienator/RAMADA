@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
-h1,h2, h3, h6, nav, button {
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+h1,h2, h3, h6, nav, button, form {
   font-family: 'Kings', cursive;
   
 }
-p{
-  font-family: 'Kings', cursive;
-  font-size: 45px;
+h2{
+  text-decoration: underline;
+}
+p, .lead {
+  font-family: 'Carattere', cursive;
+  font-size: 30px;
+  
+
 
 }
 
@@ -18,6 +25,9 @@ p{
   font-weight: bold;
   text-decoration: underline;
 }
-#form{
+#form, .featurette-heading{
   text-align: center;
+}
+#see{
+  background: a#c4aead;
 }
