@@ -1,16 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap');
+body{
+  background:  #e0e0ff ;
+}
 h1,h2, h3, h6, nav, button, form {
-  font-family: 'Kings', cursive;
+  font-family: 'Eczar', serif;
   
+}
+h1{
+  color: #5D3FD3;
+  text-decoration: underline;
 }
 h2{
   text-decoration: underline;
 }
 p, .lead {
-  font-family: 'Carattere', cursive;
-  font-size: 30px;
+  font-family: 'Eczar', serif;
+  font-size: 20px;
   
 
 
@@ -30,4 +36,16 @@ p, .lead {
 }
 #see{
   background: a#c4aead;
+}.io{
+  text-align: center;
+  font-size: 60px;
+}
+.btns{
+  align-items: center;
+}
+#cent{
+ justify-content: space-between;
+}
+.btn{
+  color: #5D3FD3;
 }
